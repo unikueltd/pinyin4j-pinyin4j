@@ -16,7 +16,7 @@ Jpinyin is a package that supports translation between simplified Chinese and tr
 
 ```xml
         <dependency>
-            <groupId>com.yookue.forkextension.pinyin4j</groupId>
+            <groupId>cn.unikue.forkextension.pinyin4j</groupId>
             <artifactId>pinyin4j</artifactId>
             <version>LATEST</version>
         </dependency>
@@ -39,8 +39,8 @@ See the `NOTICE.txt` file for required notices and attributions.
 
 ## Donation
 
-You like this package? Then [donate to Yookue](https://yookue.com/public/donate) to support the development.
+You like this package? Then [donate to Unikue](https://unikue.cn/donation) to support the development.
 
 ## Website
 
-- Yookue: https://yookue.com
+- Unikue: https://unikue.cn
