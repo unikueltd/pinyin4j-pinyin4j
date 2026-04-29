@@ -22,7 +22,7 @@
 
     <groupId>cn.unikue.forkextension.pinyin4j</groupId>
     <artifactId>pinyin4j</artifactId>
-    <version>2.7.0</version>
+    <version>2.7.1</version>
 
     <name>${project.artifactId}</name>
     <description>Fork Extension of Pinyin4j</description>
@@ -47,23 +47,23 @@
         <project.build.resourceEncoding>${file.encoding}</project.build.resourceEncoding>
         <project.reporting.outputEncoding>${file.encoding}</project.reporting.outputEncoding>
 
-        <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
-        <lombok.version>1.18.38</lombok.version>
+        <jakarta-annotation.version>3.0.0</jakarta-annotation.version>
+        <lombok.version>1.18.46</lombok.version>
         <slf4j.version>2.0.17</slf4j.version>
 
         <!-- shaded versions -->
         <jpinyin.version>1.1.8</jpinyin.version>
         <pinyin4j.version>2.5.1</pinyin4j.version>
 
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
         <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
         <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>3.11.3</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-        <maven-shade-plugin.version>3.6.0</maven-shade-plugin.version>
+        <maven-shade-plugin.version>3.6.2</maven-shade-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
-        <central-publishing-maven-plugin.version>0.8.0</central-publishing-maven-plugin.version>
+        <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
     </properties>
 
     <dependencies>
