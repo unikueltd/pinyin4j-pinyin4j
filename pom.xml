@@ -105,6 +105,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                        <arg>-Xlint:unchecked</arg>
+                    </compilerArgs>
                     <excludes>
                         <exclude>**/._*</exclude>
                     </excludes>
