@@ -22,7 +22,7 @@
 
     <groupId>cn.unikue.forkextension.pinyin4j</groupId>
     <artifactId>pinyin4j</artifactId>
-    <version>2.7.2</version>
+    <version>2.7.3</version>
 
     <name>${project.artifactId}</name>
     <description>Fork Extension of Pinyin4j</description>
@@ -49,7 +49,7 @@
 
         <jakarta-annotation.version>2.1.1</jakarta-annotation.version>
         <lombok.version>1.18.46</lombok.version>
-        <slf4j.version>2.0.17</slf4j.version>
+        <slf4j.version>2.0.18</slf4j.version>
 
         <!-- shaded versions -->
         <jpinyin.version>1.1.8</jpinyin.version>
@@ -63,7 +63,7 @@
         <maven-shade-plugin.version>3.6.2</maven-shade-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
-        <central-publishing-maven-plugin.version>0.10.0</central-publishing-maven-plugin.version>
+        <central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
     </properties>
 
     <dependencies>
@@ -153,6 +153,9 @@
                     <notimestamp>true</notimestamp>
                     <quiet>true</quiet>
                     <skip>false</skip>
+                    <additionalJOptions>
+                        <additionalJOption>-J-Duser.language=en</additionalJOption>
+                    </additionalJOptions>
                     <archive>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
